@@ -16,7 +16,6 @@ export interface OrderProps {
 
 
 export async function createOrder(orderData: CreateOrderData) {
- console.log("qualquer coisa")
   const { data, error } = await supabase
     .from('orders')
     .insert([
