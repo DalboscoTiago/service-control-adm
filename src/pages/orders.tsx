@@ -101,7 +101,7 @@ export function Orders() {
   }, [])
 
   return (
-    <main className="w-full flex flex-col items-center justify-start">
+    <main className="w-full bg-red-500 flex flex-col items-center justify-start">
       <Dialog open={isToggleDialogUpdateDeliveryPrevision} onOpenChange={() => setIsToggleDialogUpdateDeliveryPrevision(!isToggleDialogUpdateDeliveryPrevision)}>
         <DialogContent>
           <DialogHeader>
